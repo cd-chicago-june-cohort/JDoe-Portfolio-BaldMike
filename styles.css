@@ -1,0 +1,177 @@
+body {
+  /*background-color: rgb(111,89,100);*/
+  width: 970px;
+}
+
+.wrapper {
+  /*width: 970px;*/
+  background-color: rgb(111,89,100);
+  margin: auto;
+  /*border: 3px solid black;*/
+}
+
+.header {
+  background: lightgray;
+  overflow: hidden;
+}
+
+#name {
+  display: inline;
+  font-family: 'Patrick Hand SC', cursive;
+  padding-left: 20px;
+}
+
+#tagline {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+
+.aboutMe {
+  display: inline-block;
+  margin: 20px 10px 10px 20px;
+}
+
+.me {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.me img {
+  display: inline-block;
+  border: 2px solid lightgray;
+  width: 386px;
+  height: 256px;
+  margin-right: 10px;
+}
+
+.about {
+  display: inline-block;
+  width: 515px;
+  height: 260px;
+  vertical-align: top;
+  margin-left: 10px;
+  /*margin: 20px 20px 10px 10px;*/
+  vertical-align: top;
+}
+
+.titleBar {
+  /*display: inline-block;*/
+  background: gray;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 1.5em;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgray),darkgrayolor));
+  background-image: -webkit-linear-gradient(top, lightgray,gray);
+  background-image: -moz-linear-gradient(top, lightgray,gray);
+  background-image: linear-gradient(lightgray,gray,lightgray);
+}
+
+#aboutDetails {
+  background-color: rgb(254,254,254);
+  height: 208px;
+  vertical-align: top;
+  background-image: -webkit-gradient(linear, left top, left bottom, fromrgb(255,255,255), rgb(218,203,217)));
+  background-image: -webkit-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: -moz-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: linear-gradient(to right,rgb(255,255,255), rgb(218,203,217));
+  padding-top: 10px;
+}
+
+#aboutDetails p {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+.portItem1 {
+  display: inline-block;
+  width: 293px;
+  margin: 10px 10px 20px 20px;
+}
+
+.portItem2 {
+  display: inline-block;
+  width: 293px;
+  margin: 10px 10px 20px 10px;
+}
+
+.portItem3 {
+  display: inline-block;
+  width: 293px;
+  margin: 10px 20px 20px 10px;
+}
+
+.titleBar2 {
+  background: gray;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgray),darkgrayolor));
+  background-image: -webkit-linear-gradient(top, lightgray,gray);
+  background-image: -moz-linear-gradient(top, lightgray,gray);
+  background-image: linear-gradient(lightgray,gray,lightgray);
+  vertical-align: top;
+}
+
+.thumb {
+  margin: 0;
+  height: 162px;
+}
+.thumb img {
+  width: 293px;
+}
+
+.portText {
+  width: 273px;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, fromrgb(255,255,255), rgb(218,203,217)));
+  background-image: -webkit-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: -moz-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: linear-gradient(to right,rgb(255,255,255), rgb(218,203,217));
+}
+
+.tech {
+  width: 273px;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, fromrgb(255,255,255), rgb(218,203,217)));
+  background-image: -webkit-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: -moz-linear-gradient(top,rgb(255,255,255), rgb(218,203,217));
+  background-image: linear-gradient(to right,rgb(255,255,255), rgb(218,203,217));
+  text-align: center;
+}
+
+button {
+  background-color: green;
+  width: 80px;
+  border-radius: 25px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.portItem2 button {
+  width: 120px;
+}
+
+.tech img {
+  margin: 5px;
+}
+
+.bottomRowTech {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.footer {
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 14px;
+}
